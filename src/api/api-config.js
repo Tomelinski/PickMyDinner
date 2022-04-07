@@ -1,5 +1,5 @@
 // export const domain = "http://localhost:8080";
-export const domain = "https://pick-my-dinner-io.herokuapp.com";
+export const domain = "http://pick-my-dinner-io.herokuapp.com";
 
 export const NUM_OF_RESULTS = 6;
 export const SORT = "random";

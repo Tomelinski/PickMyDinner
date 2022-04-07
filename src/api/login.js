@@ -35,11 +35,14 @@ export const attemptGoogleLogin = () => {
       withCredentials: true,
     })
     .then((response) => {
-      // console.log("loginData: " + response);
+      console.log("loginData: " + response);
       return response;
     })
     .catch((err) => {
-      console.log("An Error has occured while authenticating with Google");
+      console.log(
+        err,
+        "An error has occured while authenticating through google"
+      );
     });
 };
 

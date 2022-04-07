@@ -49,7 +49,7 @@ const Login = () => {
     if (newWindow) {
       timer = setInterval(() => {
         if (newWindow.closed) {
-          console.log("Auth Success");
+          // console.log("Auth Success");
 
           loginGoogle();
 

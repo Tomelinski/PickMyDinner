@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Lora:wght@400;600;700&display=swap");
+#logoText {
+  font-size: 1rem;
+}
+
+.josefinSub {
+  font-size: 1.5rem;
+  font-family: "Josefin Sans", sans-ser !important;
+}
+
+.loraSub {
+  font-weight: 600;
+  font-family: "Lora", serif;
+}
+
+.lora-bigSub {
+  font-size: 48px;
+  font-weight: 600;
+  font-family: "Lora", serif;
+}
+
+.orange {
+  color: #DD7F11;
+  font-style: italic;
+}
+
+.randomButton:hover,
+.randomButton.active,
+.randomButton.focus {
+  background-color: #DD7F11 !important;
+  border-color: #DD7F11;
+  color: white;
+}
+
+.randomButton {
+  border-radius: 0.7rem;
+  font-size: 1.1rem;
+  padding: 0.7rem 2.3rem 0.3rem;
+  color: white;
+  background: #DD7F11;
+  border: none;
+}
+
+.navigation {
+  background-color: #e0e9e6;
+}
+
+.subCenter {
+  margin: auto;
+  text-align: center;
+}

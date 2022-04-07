@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Lora:wght@400;600;700&display=swap");
+body {
+  width: 100%;
+}
+
+form {
+  font-size: 1.2rem;
+  font-weight: 400;
+  font-family: "Lora", serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Josefin Sans", sans-ser;
+}
+
+.lora {
+  font-weight: 600;
+  font-family: "Lora", serif;
+}
+
+.lora-big {
+  font-weight: 700;
+  font-family: "Lora", serif;
+}
+
+.josefin {
+  font-size: 1.5rem;
+  font-family: "Josefin Sans", sans-ser;
+}
+
+.form-bg {
+  background-color: #f4f4f4;
+  padding: 1.2rem;
+  border-radius: 1rem;
+}
+
+.formSpace {
+  margin: 1rem 0;
+}
+
+.checkboxContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.checkbox {
+  border-radius: 0.4rem;
+}
+
+.optionFood {
+  margin-right: 1rem;
+  flex-grow: 1;
+}
+
+.optionDiet {
+  flex-grow: 1;
+  max-width: 22rem;
+}
+
+.cardSize{
+  display: flex;
+  justify-content: space-between;
+}
+
+.cardValue {
+  min-width: 17.6rem !important;
+  max-width: 23rem !important;
+  margin-bottom: 1.5rem;
+}
+
+.sliderSize {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 1.5rem;
+  min-width: 23rem !important;
+}
+
+.sliderValue {
+  margin: 0 0.7rem;
+  width: 4.5rem !important;
+}
+
+.slider {
+  min-width: 18rem;
+  margin-right: 1rem;
+}
+
+.tryAgain{
+  font-weight: bolder;
+  border: none;
+  background: none;
+}
+
+@media only screen and (max-width: 1662px) {
+  .optionFood {
+    margin-right: auto;
+  }
+
+  .optionDiet {
+    margin-top: 1rem;
+    max-width: none;
+  }
+
+  .cardValue {
+    margin-bottom: 1rem;
+    min-width: 23rem !important;
+  }
+
+  .slider {
+    min-width: 20rem;
+    margin-right: 1.7rem;
+  }
+}
+@media only screen and (max-width: 1471px) {
+  .cardSize {
+    justify-content: space-around;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .sliderSize {
+    display: flex;
+    min-width: 23rem !important;
+  }
+
+  .slider {
+    min-width: 14rem;
+    margin-right: 1rem;
+  }
+}
+
+.green {
+  background-color: #d8ebd1;
+  border: none;
+  color: black;
+}
+
+.green:hover,
+.green.active {
+  background-color: #66a450 !important;
+  border-color: #66a450;
+}
+
+.teal {
+  background-color: #c3deea;
+  border: none;
+  color: black;
+}
+
+.teal:hover,
+.teal.active {
+  background-color: #57b0d6 !important;
+  border-color: #57b0d6;
+}
+
+label input[type="checkbox"] {
+  position: fixed;
+  z-index: -10;
+  opacity: 0;
+  left: 0;
+  top: 0;
+}
+
+.purple {
+  background-color: #dfd9f1;
+  border: none;
+  color: black;
+}
+
+.purple:hover,
+.purple.active {
+  background-color: #8c79c3 !important;
+  border-color: #8c79c3;
+}
+
+.orange {
+  color: #DD7F11;
+}
+
+#foodType {
+  background-color: #dfd9f1;
+}
+
+.submitButton {
+  border-radius: 0.7rem;
+  font-size: 1.1rem;
+  padding: 0.7rem 2.3rem 0.3rem;
+  color: white;
+  background: #DD7F11;
+  border: none;
+}
+
+.submitButton:hover,
+.submitButton.active,
+.submitButton.focus {
+  background-color: #DD7F11 !important;
+  border-color: #DD7F11;
+  color: white;
+}

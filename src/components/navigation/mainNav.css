@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Lora:wght@400;600;700&display=swap");
+#logoText {
+  font-size: 1rem;
+}
+
+.josefinMain {
+  font-size: 1.5rem;
+  font-family: "Josefin Sans", sans-ser !important;
+}
+
+.navigation {
+  background-color: #e0e9e6;
+}

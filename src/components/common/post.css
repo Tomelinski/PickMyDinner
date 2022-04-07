@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Lora:wght@400;600;700&display=swap");
+
+.loraPost {
+  font-weight: 600;
+  font-family: "Lora", serif;
+  font-size: 18;
+}
+
+.josefinPost {
+  font-size: 24;
+  font-family: "Josefin Sans", sans-ser !important;
+}
+
+.postTitle{
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.expand {
+  color: black;
+  border: none;
+  padding: 0rem 0.75rem;
+}
+
+.likeButton {
+  padding: 0.2rem 0.75rem;
+  margin-left: 0.3rem;
+  color: black;
+  border: none;
+  background: none;
+}
+
+.liked,
+.likeButton:hover,
+.likeButton:active,
+.likeButton:focus{
+  color: #d44a4a;
+  border: none;
+  background: none;
+}
+
+.redButton {
+  margin: auto;
+  border-radius: 1rem;
+  padding: 0.2rem 0.75rem;
+  background-color: #d44a4a !important;
+}
+
+.center {
+  margin: auto 0;
+}
+
+.imgFooter {
+  margin: 0.1rem 0.8rem;
+}
+
+.footer {
+  margin: 0.8rem;
+}
+
+.cardText {
+  padding: 0;
+  margin: 0.1rem 0.8rem;
+}
+
+.cardFill {
+  min-height: 26rem !important;
+}
+
+@media only screen and (max-width: 1662px) {
+  .cardFill {
+    min-height: 29rem !important;
+  }
+}

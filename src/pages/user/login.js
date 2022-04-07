@@ -1,6 +1,7 @@
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import React, { useContext, useState } from "react";
+import { domain } from "../../api/api-config";
 import { attemptLogin, attemptGoogleLogin } from "../../api/login";
 
 import "./style.css";
@@ -39,7 +40,7 @@ const Login = () => {
 
   const redirectToGoogle = async () => {
     let timer;
-    const googleLoginURL = "http://localhost:8080/user/google";
+    const googleLoginURL = `${domain}/user/google`;
     const newWindow = window.open(
       googleLoginURL,
       "_black",
